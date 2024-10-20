@@ -12,6 +12,6 @@
     "resolveJsonModule": true,               
     "allowSyntheticDefaultImports": true      
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*","src/main/database/migrations/**/*.ts"],
   "exclude": ["node_modules"]
 }
