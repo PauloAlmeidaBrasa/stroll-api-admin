@@ -9,7 +9,8 @@ const config: Knex.Config = {
     database: 'admin-stroll'
   },
   migrations: {
-    directory: 'src/main/database/migrations'
+    directory: 'src/main/database/migrations',
+    extension: 'ts'
   },
   seeds: {
     directory: 'src/main/database/seeds'
